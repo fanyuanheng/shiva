@@ -38,6 +38,7 @@
 		3E5CF33E151AE26E0060AC91 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E5CF33D151AE26E0060AC91 /* MainViewController.m */; };
 		3E5CF340151AE26E0060AC91 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E5CF33F151AE26E0060AC91 /* MainViewController.xib */; };
 		3E5CF344151AE26E0060AC91 /* verify.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3E5CF343151AE26E0060AC91 /* verify.sh */; };
+		3E5CF34B151B4BF10060AC91 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 3E5CF34A151B4BF10060AC91 /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 		3E5CF33F151AE26E0060AC91 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
 		3E5CF342151AE26E0060AC91 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
 		3E5CF343151AE26E0060AC91 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		3E5CF34A151B4BF10060AC91 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		3E5CF2E0151AE26E0060AC91 = {
 			isa = PBXGroup;
 			children = (
+				3E5CF34A151B4BF10060AC91 /* www */,
 				3E5CF30C151AE26E0060AC91 /* nix */,
 				3E5CF2F1151AE26E0060AC91 /* Frameworks */,
 				3E5CF2EF151AE26E0060AC91 /* Products */,
@@ -326,6 +329,7 @@
 				3E5CF337151AE26E0060AC91 /* Cordova.plist in Resources */,
 				3E5CF340151AE26E0060AC91 /* MainViewController.xib in Resources */,
 				3E5CF344151AE26E0060AC91 /* verify.sh in Resources */,
+				3E5CF34B151B4BF10060AC91 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
