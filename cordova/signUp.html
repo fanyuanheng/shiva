@@ -18,10 +18,34 @@
     </div>
     <!-- /header -->
     <div data-role="content">
-        <div class="ui-grid-a">
-            <div class="ui-block-a"><input type="text" name="firstName" id="firstName" data-mini="true" placeholder="First Name"/></div>
-            <div class="ui-block-b"><input type="text" name="lastName" id="lastName" data-mini="true" placeholder="Last Name"/></div>
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup">
+                <input id="firstName" placeholder="First Name" value="" type="text" />
+                <input id="lastName" placeholder="Last Name" value="" type="text" />
+            </fieldset>
         </div>
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup" data-type="horizontal">
+                <input name="gender" id="genderMale" value="0" type="radio" />
+                <label for="genderMale">
+                    Male
+                </label>
+                <input name="gender" id="genderFemal" value="1" type="radio" />
+                <label for="genderFemal">
+                    Female
+                </label>
+            </fieldset>
+        </div>
+        <div data-role="fieldcontain">
+            <fieldset data-role="controlgroup">
+                <input id="emailAddress" placeholder="Email Address" value="" type="email" />
+                <input id="password" placeholder="Password" value="" type="password" />
+            </fieldset>
+        </div>
+        <a data-role="button" data-transition="fade" data-theme="b" href="#">
+            Join Now
+        </a>
+    </div>
     </div>
     <!-- /content -->
 
