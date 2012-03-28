@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gymate</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.1.0-rc.1.min.css"/>
+    <script src="javascript/jquery-1.7.1.min.js"></script>
+    <script src="javascript/jquery.mobile-1.1.0-rc.1.min.js"></script>
+    <script src="javascript/cordova-1.5.0.js"></script>
+</head>
+<body>
+
+<div data-role="page">
+    <div data-theme="a" data-role="header">
+        <h3>
+            Set Target
+        </h3>
+        <a data-role="button" data-transition="fade" href="addWorkout.html" data-icon="arrow-l" data-iconpos="left">
+            Back
+        </a>
+        <a data-role="button" data-transition="fade" href="plan.html" data-icon="check" data-iconpos="left">
+            Save
+        </a>
+    </div>
+    <div data-role="content">
+        <ul data-role="listview" data-divider-theme="a" data-inset="true">
+            <li data-corners="false" data-shadow="false" data-iconshadow="true" data-inline="false"
+                data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="c"
+                style="min-height: 20px">
+                <span style="position: absolute; left: 10px;">Name</span>
+                <span style="right:10px; position: absolute;">Dumbbell Fly</span>
+            </li>
+            <li data-corners="false" data-shadow="false" data-iconshadow="true" data-inline="false"
+                data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="c"
+                style="min-height: 20px">
+                <span style="position: absolute; left: 10px;">Type</span>
+                <span style="right:10px; position: absolute;">Free Weight</span>
+            </li>
+            <li data-corners="false" data-shadow="false" data-iconshadow="true" data-inline="false"
+                data-wrapperels="div" data-icon="arrow-r" data-iconpos="right" data-theme="c"
+                style="min-height: 20px">
+                <span style="position: absolute; left: 10px;">Body Part</span>
+                <span style="right:10px; position: absolute;">Chest</span>
+            </li>
+        </ul>
+        <label for="set">Set:</label>
+        <input type="range" name="slider" id="set" value="1" min="0" max="30" />
+        <label for="weight">Weight:</label>
+        <input type="range" name="slider" id="weight" value="0" min="0" max="300" />
+        <label for="repeat">Weight:</label>
+        <input type="range" name="slider" id="repeat" value="1" min="0" max="50" />
+    </div>
+    <!-- /content -->
+
+</div>
+<!-- /page -->
+
+</body>
+</html>
